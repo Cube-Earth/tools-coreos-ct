@@ -1,0 +1,15 @@
+version: '2'
+services:
+  single:
+    build:
+        context: .
+        args:
+            - http_proxy
+            - https_proxy
+            - no_proxy
+    image: cubeearth/tmp_tools-coreos-ct
+    environment:
+    - GITHUB_EMAIL=${GITHUB_EMAIL}
+    - GITHUB_PWD=${GITHUB_PWD}
+    - GITHUB_REPO=${GITHUB_REPO}
+    - GITHUB_RELEASE=${GITHUB_RELEASE}
