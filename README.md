@@ -6,6 +6,11 @@ The only purpose of this container is to build the ct tool for Alpine.
 # Download
 See [Releases](../../releases) for bre-build ct for Alpine.
 
+Alternatevly you might want to use a Docker container hosting the ct tool.
+```
+docker pull cubeearth/tools-coreos-ct
+```
+
 # Usage
 ```
 ct << EOF
@@ -32,5 +37,6 @@ EOF
 This container automatically creates a new release and propagates the built ct tool into this newly created release.
 
 # References
-https://github.com/coreos/container-linux-config-transpiler
-
+- https://github.com/coreos/container-linux-config-transpiler
+- https://github.com/Cube-Earth/container-tools-coreos-ct
+- https://hub.docker.com/r/cubeearth/tools-coreos-ct/
