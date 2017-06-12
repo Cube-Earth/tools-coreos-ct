@@ -12,4 +12,4 @@ WORKDIR /tmp
 
 COPY propagate.sh .
 
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["./propagate.sh"]
