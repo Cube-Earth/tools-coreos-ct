@@ -1,6 +1,6 @@
 version: '2'
 services:
-  single:
+  main:
     build:
         context: .
         args:
