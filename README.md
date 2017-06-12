@@ -2,7 +2,7 @@
 With the config transpiler, config files (simliar, but not identical to cloud-config files) can be converted to Ignition JSON format.
 
 # Download
-See [Releases] (releases) for bre-build ct for Alpine.
+See [Releases](./releases) for bre-build ct for Alpine.
 
 # Usage
 ```
